@@ -1,0 +1,446 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+
+#site-elements-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1366px;
+  height: auto;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/glasses-bg.png");
+  background-size: cover;
+  width: 100%;
+  height: 31rem;
+  color: white;
+}
+
+.site-top-banner {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  height: 4rem;
+  margin-top: 1rem;
+  background-color: cadetblue;
+
+}
+
+.company-logo {
+  margin-left: 2rem;
+}
+
+.company-logo img {
+  height: 1.5rem;
+}
+
+.company-title {
+  margin-right: 24rem;
+}
+
+.company-logo {
+  align-self: flex-start;
+}
+
+
+nav {
+  display: flex;
+  align-self: flex-end;
+  width: 30%;
+  align-items: center;
+  color: white;
+}
+
+button {
+  display: none;
+}
+
+nav a {
+color: white;
+padding-left: 1rem;
+
+}
+
+h1 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: black;
+  padding: 1.5rem 5rem 1.5rem 5rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.callout-headline {
+  background-color: white;
+  margin-top: 10rem;
+  margin-left: 30rem;
+  width: 40%;
+
+}
+
+#site-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 960px;
+  height: auto;
+  padding-top: 3rem;
+
+}
+
+.promo-images-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: 14rem;
+  margin-bottom: 2rem;
+
+}
+
+.exams,
+.fittings,
+.delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 8rem;
+}
+
+.exams img {
+  height: auto;
+  width: 3.5rem;
+}
+
+.fittings img {
+ height: auto;
+ width: 5rem;
+}
+
+.delivery img {
+  height: auto;
+  width: 5rem;
+}
+
+.exams {
+  height: 8rem;
+}
+
+
+.marketing-content-container {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+.philosophy,
+.appointments {
+ display: flex;
+ align-items: center;
+ background-color: cadetblue;
+ height: auto;
+ width: 10rem;
+ padding: .5rem 1.25rem .5rem 1.25rem;
+
+}
+
+.philosophy-title
+            {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 35%;
+  padding: 1rem;
+}
+
+.appointments-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  width: 35%;
+  padding: 1rem;
+}
+
+footer {
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 20rem;
+ background-color: azure;
+ width: 60%;
+ margin-top: 3rem;
+
+}
+
+.company-copyright-logo {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  width: 960px;
+  height: 4rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+}
+
+.company-copyright {
+  margin-right: 14rem;
+}
+
+
+@media only screen and (max-width: 769px) {
+
+  #site-elements-container {
+    width: 868px;
+  }
+
+  .site-top-banner {
+    width: 100%;
+    margin-top: 0;
+
+  }
+
+  nav {
+    display: flex;
+    align-self: flex-end;
+    width: 35%;
+    align-items: center;
+  }
+
+
+  header {
+    width: 100%;
+    height: 22rem;
+    color: white;
+  }
+
+  .company-logo {
+    margin-left: 4rem;
+  }
+
+  .company-title {
+    margin-right: 4rem;
+  }
+
+  .company-logo {
+    align-self: flex-start;
+  }
+
+  .callout-headline {
+    background-color: white;
+    margin-top: 7rem;
+    margin-left: 30rem;
+    margin-right: 4rem;
+    width: 40%;
+
+  }
+
+  h1 {
+
+    font-size: 1rem;
+    padding: .75rem 4rem .75rem 4rem;
+  }
+
+  #site-content-container {
+    width: 80%;
+    padding-top: 3rem;
+
+  }
+
+  .promo-images-container {
+    width: 90%;
+    height: 14rem;
+    margin-bottom: 2rem;
+
+  }
+
+  .marketing-content-container {
+    width: 90%;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  footer {
+   height: 10rem;
+   width: 100%;
+   margin-top: 3rem;
+
+  }
+
+  .company-copyright-logo {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1rem;
+  }
+
+  .company-copyright {
+    margin-right: 30rem;
+  }
+
+
+}
+
+@media only screen and (max-width: 481px) {
+
+  #site-elements-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  header {
+    width: 100%;
+    height: 17rem;
+    color: white;
+    background-position: 20%;
+
+  }
+
+  header img {
+    background-position: 20%;
+  }
+
+
+  .site-top-banner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0px;
+    background-color: cadetblue;
+
+  }
+
+  .company-title {
+  display: none;
+
+  }
+
+  .company-logo {
+    /* margin-left: 7rem; */
+    margin: 0;
+    padding: 0;
+    align-self: center;
+  }
+
+  nav {
+    display: none
+  }
+
+  button {
+    color: white;
+    font-size: 1rem;
+  }
+
+  .callout-headline {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-top: 9rem;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+  }
+
+  h1 {
+
+    font-size: 1rem;
+    padding: 1rem 0rem 1rem 0rem;
+    /* margin-left: 10rem; */
+  }
+
+  #site-content-container {
+    width: 100%;
+    padding-top: 3rem;
+
+  }
+
+  .promo-images-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    height: 34rem;
+    background-color: pink;
+    margin-bottom: 2rem;
+    padding: 0px;
+    margin-right: 0;
+
+  }
+
+  p {
+    font-size: .77rem;
+  }
+
+  .marketing-content-container {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .philosophy-title,
+  .philosophy,
+  .appointments-title,
+  .appointments
+   {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  footer {
+   display: flex;
+   justify-content: center;
+   height: 5rem;
+   width: 100%;
+   margin-top: 3rem;
+
+  }
+  .company-copyright {
+    display: none;
+  }
+}
